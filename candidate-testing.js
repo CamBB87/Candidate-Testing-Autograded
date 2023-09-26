@@ -47,11 +47,11 @@ function gradeQuiz(candidateAnswers) {
 
     if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()){
 
-    console.log(`Correct! Q-${i + 1} correct answer: ${correctAnswers[i]} your answer: ${candidateAnswers[i]} \n`);
+    console.log(`Correct! Q-${i + 1}. correct answer: ${correctAnswers[i]} your answer: ${candidateAnswers[i]} \n`);
 
     } else if (candidateAnswers[i].toLowerCase() !== correctAnswers[i].toLowerCase()){
 
-    console.log(`Incorrect! Q-${i + 1} correct answer: ${correctAnswers[i]} your incorrect answer: ${candidateAnswers[i]} \n`);
+    console.log(`Incorrect! Q-${i + 1}. correct answer: ${correctAnswers[i]} your incorrect answer: ${candidateAnswers[i]} \n`);
 
   };
 
