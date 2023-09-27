@@ -50,12 +50,20 @@ function gradeQuiz(candidateAnswers) {
 
     if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()){
 
+<<<<<<< HEAD
     console.log(`Correct! Q-${i + 1} correct answer: ${correctAnswers[i]}. your answer: ${candidateAnswers[i]} \n`);
     score += 1;
 
     } else if (candidateAnswers[i].toLowerCase() !== correctAnswers[i].toLowerCase()){
 
     console.log(`Incorrect! Q-${i + 1} correct answer: ${correctAnswers[i]}. your incorrect answer: ${candidateAnswers[i]} \n`);
+=======
+    console.log(`Correct! Q-${i + 1}. correct answer: ${correctAnswers[i]} your answer: ${candidateAnswers[i]} \n`);
+
+    } else if (candidateAnswers[i].toLowerCase() !== correctAnswers[i].toLowerCase()){
+
+    console.log(`Incorrect! Q-${i + 1}. correct answer: ${correctAnswers[i]} your incorrect answer: ${candidateAnswers[i]} \n`);
+>>>>>>> 593e16668f605b5055ecbce1f1b049f5bb382419
 
   };
 
