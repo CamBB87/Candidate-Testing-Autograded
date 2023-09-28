@@ -20,7 +20,7 @@ let correctAnswers = ["Sally Ride", "true", "40", "Trajectory", "3"];
 let candidateAnswers = [];
 
 //Variable for part 3
-let score = 0;
+
 
 function askForName() {
 
@@ -43,14 +43,14 @@ function askQuestion() {
 }
 
 function gradeQuiz(candidateAnswers) {
-
+  let score = 0;
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 
   for (i = 0; i < correctAnswers.length; i++) {
 
     if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()){
 
-    console.log(`Correct! Q-${i + 1} correct answer: ${correctAnswers[i]} \n your answer: ${candidateAnswers[i]} \n`);
+    console.log(`Correct! Q-${i + 1} correct answer: ${correctAnswers[i]} \n your correct answer: ${candidateAnswers[i]} \n`);
     score += 1;
 
     } else if (candidateAnswers[i].toLowerCase() !== correctAnswers[i].toLowerCase()){
