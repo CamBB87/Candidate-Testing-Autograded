@@ -19,8 +19,6 @@ let questions = ["Who was the first American woman in space? ", "True or false: 
 let correctAnswers = ["Sally Ride", "true", "40", "Trajectory", "3"];
 let candidateAnswers = [];
 
-//Variable for part 3
-
 
 function askForName() {
 
